@@ -1,0 +1,56 @@
+@extends('layouts.pages')
+
+
+@section('content')
+
+<!-- about section -->
+
+<section class="about_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 px-0">
+          <div class="img_container">
+            <div class="img-box">
+              <img src="{{ asset('assets/jpg/about-img.jpg') }}" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 px-0">
+          <div class="detail-box">
+            <div class="heading_container ">
+              <h2>
+                Who Are We?
+              </h2>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+              in reprehenderit in voluptate velit
+            </p>
+            <div class="btn-box">
+              <a href="">
+                Read More
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end about section -->
+
+
+
+
+  <script src="{{ asset('assets/js/jquery-3.4.1.min.js') }}"></script>
+  <script src="{{ asset('assets/js/bootstrap.js') }}"></script>
+  <script src="{{ asset('assets/js/custom.js') }}"></script>
+</body>
+
+</html>
+
+@endsection
+
