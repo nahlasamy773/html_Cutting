@@ -2,7 +2,6 @@
 <html>
 
 
-
 @include('includes.head')
 
 
@@ -16,7 +15,6 @@
     <!-- end slider section -->
   </div>
 
- 
 
   @include('includes.about')
 

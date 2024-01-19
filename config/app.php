@@ -16,8 +16,10 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    // 'name' => env('APP_NAME', 'Laravel'),
 
+
+    'locale'=>'Ar',
     /*
     |--------------------------------------------------------------------------
     | Application Environment
